@@ -4,7 +4,8 @@ CREATE TABLE carrera (
   PRIMARY KEY  (id_car)
 );
 
-INSERT INTO carrera VALUES (1,'tecnico en agroindustrias'),(2,'soporte y mantenimento de equipos de computo'); 
+INSERT INTO carrera VALUES (1,'tecnico en agroindustrias'),(2,'soporte y mantenimento de equipos de computo'),
+(3,'soporte y mantenimento de equipos de computo'); 
 
 CREATE TABLE alumno (
   num_con int(20) NOT NULL,
